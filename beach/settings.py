@@ -26,7 +26,7 @@ SECRET_KEY = ')a5h8t+0qp33dib*k(cb%%8-7e@@5!&@g#2iok$#q%=05$i850'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+AUTH_USER_MODEL = 'myapp.CustomUser'
 
 # Application definition
 
